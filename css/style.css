@@ -104,8 +104,7 @@ textarea {
   padding: 5px 10px;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
-  transition: all 0.4s;
-  border-radius: 35%;}
+  transition: all 0.4s;}
   .navigation li:hover {
     background-color: rgba(0, 0, 0, 0.8); }
   .navigation li a {
@@ -182,6 +181,22 @@ input, textarea {
   background-color: transparent;
   width: 100%;
   color: white; }
+
+.send {
+  border: solid 1px #eee;
+  font-size: 2em;
+  padding: 0,5em;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: white; }
+
+.send:hover {
+  background-color: white;
+  color: #222;
+  cursor: pointer;
+  transition: .4s }  
 
 .espacio {
   margin-top: 10%; }
