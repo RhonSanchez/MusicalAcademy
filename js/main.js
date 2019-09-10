@@ -63,9 +63,9 @@
 		var date = new Date()
 		var current_hour = date.getHours()
 	
-		if(current_hour < 8 || current_hour > 12 || current_hour < 14 || current_hour > 18){
+		if(current_hour < 8 || current_hour === 12 || current_hour === 13 || current_hour > 18){
 			$("#is-open .text").html("Cerrado ahora <br> Abierto de 8am a 12pm y de 2pm a 6pm")
-		}
+		} 
 	}
 
 	function stickNavigation(){
